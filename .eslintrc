@@ -4,11 +4,15 @@
     "node": true
   },
   "extends": [
-    "plugin:vue/essential",
-    "eslint:recommended"
+    "plugin:vue/recommended",
+    "eslint:recommended",
+    "airbnb-base"
   ],
   "parserOptions": {
     "parser": "babel-eslint"
   },
-  "rules": {}
+  "rules": {
+    "import/prefer-default-export": "off",
+    "vue/max-attributes-per-line": "off"
+  }
 }
