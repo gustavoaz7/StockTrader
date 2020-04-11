@@ -11,7 +11,7 @@
 
 <script>
 import Header from './components/Header.vue';
-import { INIT_STOCKS } from './store/stocks/stocks.actions';
+import { INIT_STOCKS } from './store/actions.type';
 
 export default {
   name: 'App',

@@ -5,7 +5,7 @@
 </template>
 <script>
 import Stock from '../components/Stock.vue';
-import { STOCKS } from '../store/stocks/stocks.getters';
+import { GET_STOCKS } from '../store/getters.type';
 
 export default {
   components: {
@@ -13,7 +13,7 @@ export default {
   },
   computed: {
     stocks() {
-      return this.$store.getters[STOCKS];
+      return this.$store.getters[GET_STOCKS];
     },
   },
 };

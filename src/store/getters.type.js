@@ -1,0 +1,3 @@
+export const GET_STOCKS = 'GET_STOCKS';
+export const GET_PORTFOLIO_STOCKS = 'GET_PORTFOLIO_STOCKS';
+export const GET_FUNDS = 'GET_FUNDS';
